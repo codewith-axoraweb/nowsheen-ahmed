@@ -32,7 +32,7 @@ export function Header() {
 <Link href="/" className="flex items-center shrink-0">
   <img
     src="/logo.png"
-    alt="Muhammad Muneeb Logo"
+    alt="Nowsheen Logo"
     className="
       h-24 w-24
       sm:h-26 sm:w-26

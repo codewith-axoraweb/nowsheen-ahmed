@@ -1,4 +1,3 @@
-
 "use client";
 
 import type React from "react";
@@ -66,10 +65,10 @@ export default function ContactPage() {
     }
   };
 
-  const whatsappNumber = "923004784788";
+  const whatsappNumber = "923242387403";
 
   const whatsappMessage = encodeURIComponent(
-    "Hello Muhammad Muneeb, I would like to discuss a content writing project with you."
+    "Hello Nowsheen G. Ahmed, I would like to discuss a content writing project with you."
   );
 
   return (
@@ -83,8 +82,9 @@ export default function ContactPage() {
           </h1>
 
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Whether you need engaging articles, strategic SEO content, or
-            compelling web copy, I'm here to help.
+            Whether you need technical content, grant proposals, SEO
+            optimization, digital marketing content, or professional
+            documentation, I'm here to help.
           </p>
         </section>
 
@@ -144,7 +144,7 @@ export default function ContactPage() {
                   <div>
                     <p className="font-medium">Email</p>
                     <p className="text-muted-foreground">
-                      mohammadmuneeb596@gmail.com
+                      nshgahmed@gmail.com
                     </p>
                   </div>
                 </div>
@@ -157,7 +157,7 @@ export default function ContactPage() {
                   <div>
                     <p className="font-medium">Location</p>
                     <p className="text-muted-foreground">
-                      Johar Town, Lahore, Pakistan
+                      Gulshan-e-Hadid, National Highway N5 Karachi, Pakistan
                     </p>
                   </div>
                 </div>
@@ -184,7 +184,7 @@ export default function ContactPage() {
                   <div>
                     <p className="font-medium">Chat with me</p>
                     <p className="text-muted-foreground">
-                      +92 300 4784788
+                      +92 0324-2387403
                     </p>
                   </div>
                 </a>
@@ -215,7 +215,7 @@ export default function ContactPage() {
             <CardContent className="p-0">
               <div className="overflow-hidden rounded-b-lg">
                 <iframe
-                  src="https://www.google.com/maps?q=Johar+Town,+Lahore,+Pakistan&output=embed"
+                  src="https://www.google.com/maps?q=Gulshan-e-Hadid,+National+Highway+N5,+Karachi,+Pakistan&output=embed"
                   width="100%"
                   height="400"
                   style={{ border: 0 }}
@@ -228,7 +228,8 @@ export default function ContactPage() {
 
               <div className="p-4 text-center">
                 <p className="text-muted-foreground">
-                  Serving clients globally from Johar Town, Lahore, Pakistan
+                  Serving clients globally from Gulshan-e-Hadid, National
+                  Highway N5, Karachi, Pakistan
                 </p>
               </div>
             </CardContent>

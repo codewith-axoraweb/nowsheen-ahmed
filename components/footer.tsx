@@ -13,7 +13,7 @@ export function Footer() {
             <div className="flex items-center">
               <Image
                 src="/logo.png"
-                alt="Muhammad Muneeb Logo"
+                alt="Nowsheen G. Ahmed Logo"
                 width={180}
                 height={60}
                 className="h-[80px] w-auto object-contain"
@@ -22,14 +22,14 @@ export function Footer() {
             </div>
 
             <p className="text-muted-foreground">
-              Crafted with clarity by your dedicated Content Writer
+              Crafted with clarity by your dedicated Digital Content Writer
             </p>
 
             <div className="flex space-x-2">
               {/* LinkedIn */}
               <Button size="icon" variant="ghost" asChild>
                 <Link
-                  href="https://www.linkedin.com/"
+                  href="https://www.linkedin.com/in/nowsheen-g-7b204421b?utm_source=share_via&utm_content=profile&utm_medium=member_android"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -39,7 +39,7 @@ export function Footer() {
 
               {/* Email */}
               <Button size="icon" variant="ghost" asChild>
-                <Link href="mailto:mohammadmuneeb596@gmail.com">
+                <Link href="mailto:nshgahmed@gmail.com">
                   <Mail className="h-4 w-4" />
                 </Link>
               </Button>
@@ -93,19 +93,19 @@ export function Footer() {
             <ul className="space-y-2">
               <li>
                 <span className="text-muted-foreground">
-                  mohammadmuneeb596@gmail.com
+                  nshgahmed@gmail.com
                 </span>
               </li>
 
               <li>
                 <span className="text-muted-foreground">
-                  +92 300 4784788
+                  +92 324-2387403
                 </span>
               </li>
 
               <li>
                 <span className="text-muted-foreground">
-                  Johar Town, Lahore
+                  Gulshan-e-Hadid, National Highway N5 Karachi, Pakistan
                 </span>
               </li>
             </ul>
@@ -114,7 +114,7 @@ export function Footer() {
 
         <div className="border-t mt-8 pt-8 text-center text-muted-foreground">
           <p>
-            &copy; {new Date().getFullYear()} Muhammad Muneeb. All rights
+            &copy; {new Date().getFullYear()} Nowsheen G. Ahmed. All rights
             reserved.
           </p>
         </div>

@@ -1,9 +1,9 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Contact Muhammad Muneeb- Best Content Writer in Hyderabad, Pakistan",
+  title: "Contact Nowsheen- Best Content Writer in Hyderabad, Pakistan",
   description:
-    "Contact Muhammad Muneebfor top content writing services in Hyderabad, Pakistan, SEO content, and copywriting via WhatsApp or email.",
+    "Contact Nowsheenfor top content writing services in Hyderabad, Pakistan, SEO content, and copywriting via WhatsApp or email.",
   keywords: [
     "content writer Karachi contact number",
     "content writer Karachi contact number WhatsApp",
@@ -26,11 +26,11 @@ export const metadata: Metadata = {
     "content writer rates per word",
     "freelance content writer near me",
   ],
-  authors: [{ name: "Muhammad Muneeb" }],
+  authors: [{ name: "Nowsheen" }],
   openGraph: {
-    title: "Contact Muhammad Muneeb- Best Content Writer in Hyderabad, Pakistan",
+    title: "Contact Nowsheen- Best Content Writer in Hyderabad, Pakistan",
     description:
-      "Reach Muhammad Muneebfor expert content writing services, SEO content, and copywriting in Hyderabad, Pakistan via WhatsApp or email.",
+      "Reach Nowsheenfor expert content writing services, SEO content, and copywriting in Hyderabad, Pakistan via WhatsApp or email.",
     type: "website",
     url: "https://yourwebsite.com/contact",
     images: [
@@ -38,16 +38,16 @@ export const metadata: Metadata = {
         url: "/contact-og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Contact Muhammad Muneebfor Content Writing Services",
+        alt: "Contact Nowsheenfor Content Writing Services",
       },
     ],
-    siteName: "Muhammad MuneebPortfolio",
+    siteName: "NowsheenPortfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Contact Muhammad Muneeb- Content Writing Services",
+    title: "Contact Nowsheen- Content Writing Services",
     description:
-      "Get in touch with Muhammad Muneebfor SEO content, blog writing, and copywriting services in Hyderabad, Pakistan, USA, and Dubai.",
+      "Get in touch with Nowsheenfor SEO content, blog writing, and copywriting services in Hyderabad, Pakistan, USA, and Dubai.",
     images: ["/contact-og-image.jpg"],
   },
   alternates: {
@@ -68,12 +68,12 @@ export const metadata: Metadata = {
     "application/ld+json": JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Person",
-      name: "Muhammad Muneeb",
+      name: "Nowsheen",
       jobTitle: "Content Writer & SEO Copywriter",
       url: "https://yourwebsite.com/contact",
       sameAs: [
-        "https://www.linkedin.com/in/Muhammad Muneeb",
-        "https://twitter.com/Muhammad Muneeb",
+        "https://www.linkedin.com/in/Nowsheen",
+        "https://twitter.com/Nowsheen",
         "https://wa.me/yourwhatsappnumber",
       ],
       contactPoint: [
@@ -93,7 +93,7 @@ export const metadata: Metadata = {
         },
       ],
       description:
-        "Contact Muhammad Muneeb, a top content writer in Hyderabad, Pakistan, for professional content writing services, including SEO content, blog writing, and copywriting, via WhatsApp or email.",
+        "Contact Nowsheen, a top content writer in Hyderabad, Pakistan, for professional content writing services, including SEO content, blog writing, and copywriting, via WhatsApp or email.",
     }),
   },
 }

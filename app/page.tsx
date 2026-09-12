@@ -6,12 +6,12 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import {
-  ArrowRight,   // Usually used in buttons or links (e.g., "Learn More →")
-  Download,     // For download buttons or links
-  Youtube,      // For linking to YouTube profiles or videos
-  Linkedin,     // For linking to LinkedIn profiles
-  Mail,         // For email/contact buttons
-  ExternalLink, // For external links (e.g., opens in new tab)
+  ArrowRight,
+  Download,
+  Youtube,
+  Linkedin,
+  Mail,
+  ExternalLink,
 } from "lucide-react";
 
 import { Header } from "@/components/header";
@@ -19,13 +19,13 @@ import { Footer } from "@/components/footer";
 
 export default function HomePage() {
   const handleDownloadResume = async () => {
-    const response = await fetch('/muneeb.pdf')
+    const response = await fetch("/nowsheen.pdf");
     const blob = await response.blob();
 
-    const link = document.createElement('a');
+    const link = document.createElement("a");
     link.href = URL.createObjectURL(blob);
-    link.setAttribute('download', 'muhammad-muneeb.pdf');
-    link.style.display = 'none';
+    link.setAttribute("download", "Nowsheen.pdf");
+    link.style.display = "none";
     document.body.appendChild(link);
     link.click();
     link.remove();
@@ -43,22 +43,28 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             <div className="space-y-6 sm:space-y-8">
               <div className="space-y-4">
-                <Badge variant="outline" className="w-fit max-w-full text-left whitespace-normal">
+                <Badge
+                  variant="outline"
+                  className="w-fit max-w-full text-left whitespace-normal"
+                >
                   Available for freelance writing projects
                 </Badge>
 
                 <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold tracking-tight break-words">
-                  Hi, I'm <span className="text-blue-600"> Muhammad Muneeb</span>
+                  Hi, I'm{" "}
+                  <span className="text-blue-600">Nowsheen G. Ahmed</span>
                 </h1>
 
                 <p className="text-lg sm:text-xl lg:text-2xl text-muted-foreground">
-                  Web Copywriter & Content Writer
+                  Digital Content Writer & Expert
                 </p>
 
                 <p className="text-base sm:text-lg text-muted-foreground max-w-lg">
-                  I create engaging, SEO-focused content that connects with audiences,
-                  strengthens brand voice, and supports business growth. Specializing
-                  in web copy, localized content, blogs, and digital marketing.
+                  A dynamic and results-oriented Technical Content Writer with
+                  extensive experience working with international companies
+                  across Canada, USA, UK, UAE, and India. Skilled in content
+                  strategy, digital marketing, UX/UI design, and project
+                  management.
                 </p>
               </div>
 
@@ -69,7 +75,12 @@ export default function HomePage() {
                   </Link>
                 </Button>
 
-                <Button size="lg" variant="outline" asChild className="w-full sm:w-auto">
+                <Button
+                  size="lg"
+                  variant="outline"
+                  asChild
+                  className="w-full sm:w-auto"
+                >
                   <Link href="/contact">Contact Me</Link>
                 </Button>
 
@@ -88,7 +99,7 @@ export default function HomePage() {
                 {/* LinkedIn */}
                 <Button size="icon" variant="ghost" asChild>
                   <Link
-                    href="https://www.linkedin.com/in/muneeb-muhammad/"
+                    href="https://www.linkedin.com/in/nowsheen-g-7b204421b?utm_source=share_via&utm_content=profile&utm_medium=member_android"
                     target="_blank"
                   >
                     <Linkedin className="h-4 w-4" />
@@ -98,7 +109,7 @@ export default function HomePage() {
                 {/* Portfolio */}
                 <Button size="icon" variant="ghost" asChild>
                   <Link
-                    href="https://docs.google.com/document/d/14PQ7kAMdGVoDcm5ZGZwWW5NOgaAG2b28/edit#heading=h.evaened6mn0w"
+                    href="https://canva.link/g90d43lnetb0cgp"
                     target="_blank"
                   >
                     <span className="font-bold text-sm">P</span>
@@ -107,7 +118,7 @@ export default function HomePage() {
 
                 {/* Email */}
                 <Button size="icon" variant="ghost" asChild>
-                  <Link href="mailto:mohammadmuneeb596@gmail.com">
+                  <Link href="mailto:nshgahmed@gmail.com">
                     <Mail className="h-4 w-4" />
                   </Link>
                 </Button>
@@ -120,7 +131,7 @@ export default function HomePage() {
 
                 <Image
                   src="/contentwriterhomepage.jpeg?height=400&width=400"
-                  alt="Muhammad Muneeb"
+                  alt="Nowsheen G. Ahmed"
                   width={400}
                   height={400}
                   className="relative rounded-full border-4 border-background shadow-2xl w-full h-auto"
@@ -154,21 +165,30 @@ export default function HomePage() {
             {/* Content */}
             <div className="space-y-4 text-base sm:text-lg text-muted-foreground leading-relaxed max-w-3xl">
               <p>
-                I'm <span className="font-semibold text-foreground">Muhammad Muneeb</span>,
-                a Web Copywriter and Content Writer with experience creating clear,
-                engaging, and SEO-focused content for diverse industries.
+                I'm{" "}
+                <span className="font-semibold text-foreground">
+                  Nowsheen G. Ahmed
+                </span>
+                , a Digital Content Writer and Technical Content Expert with
+                extensive experience working with international companies
+                across Canada, USA, UK, UAE, and India.
               </p>
 
               <p>
-                I specialize in website copy, SEO content strategy, on-page optimization,
-                geo-targeted and localized copywriting, blog writing, competitive content
-                analysis, technical writing, CMS publishing, and brand voice adaptation.
+                I specialize in technical content writing, grant proposal
+                writing, digital marketing and SEO optimization, social media
+                content creation, UX/UI design, blogs, e-commerce product
+                descriptions, email campaigns, eBook design and content,
+                software user manuals, web/app feature documentation, and LMS
+                systems documentation.
               </p>
 
               <p>
-                My approach combines research, SEO strategy, editorial precision, and
-                adaptability to create content that matches search intent, communicates
-                clearly, and supports business goals.
+                I have authored 50+ successful grant proposals approved under
+                the Government of Canada's CDAP initiative and created
+                high-quality content for international websites across
+                healthcare, IT, travel, education, property, construction,
+                finance, and other industries.
               </p>
             </div>
 
@@ -192,28 +212,28 @@ export default function HomePage() {
             </h2>
 
             <p className="text-base sm:text-lg text-muted-foreground">
-              Skills and expertise I use to create impactful content
+              Skills and expertise I use to create impactful digital content
             </p>
           </div>
 
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-4 md:gap-6 max-w-4xl mx-auto">
             {[
-              "SEO Content Strategy",
-              "On-Page Optimization",
-              "Geo-Targeted Copywriting",
-              "Localized Copywriting",
-              "Competitive Content Analysis",
-              "Technical Writing",
-              "CMS Publishing",
-              "Brand Voice Adaptation",
-              "Editorial Precision",
-              "Client-Centric Research",
-              "Content Writing",
-              "Web Copywriting",
-              "Blog Writing",
-              "Digital PR",
-              "Proofreading",
+              "Technical Content Writing",
+              "Grant Proposal Writing",
               "Digital Marketing",
+              "SEO Optimization",
+              "Social Media Content",
+              "UX/UI Design",
+              "Blog Writing",
+              "E-Commerce Product Descriptions",
+              "Campaigns & Email Marketing",
+              "Ebook Design & Content",
+              "Software User Manuals",
+              "Web/App Documentation",
+              "LMS Systems Documentation",
+              "Content Creation & Management",
+              "WordPress",
+              "Web Testing",
             ].map((skill) => (
               <Card
                 key={skill}

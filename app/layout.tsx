@@ -11,10 +11,10 @@ import FloatingWhatsApp from "@/components/floating-whatsapp"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Muhammad Muneeb - Expert Content Writer & SEO Copywriter",
+  title: "Nowsheen - Expert Content Writer & SEO Copywriter",
 
   description:
-    "Discover Muhammad Muneeb's professional content writing portfolio. Expert in SEO content, blog writing, and copywriting to boost engagement and rankings.",
+    "Discover Nowsheen's professional content writing portfolio. Expert in SEO content, blog writing, and copywriting to boost engagement and rankings.",
 
   keywords: [
     "content writer",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     "copywriting",
     "content strategy",
     "freelance writer",
-    "Muhammad Muneeb portfolio",
+    "Nowsheen portfolio",
     "storycup",
   ],
 
@@ -33,12 +33,12 @@ export const metadata: Metadata = {
     apple: "/anam.png",
   },
 
-  authors: [{ name: "Muhammad Muneeb" }],
+  authors: [{ name: "Nowsheen" }],
 
   openGraph: {
-    title: "Muhammad Muneeb - Expert Content Writer & Copywriter",
+    title: "Nowsheen - Expert Content Writer & Copywriter",
     description:
-      "Explore Muhammad Muneeb's portfolio of engaging blog posts, SEO content, and persuasive copywriting for businesses and brands.",
+      "Explore Nowsheen's portfolio of engaging blog posts, SEO content, and persuasive copywriting for businesses and brands.",
     type: "website",
     url: "https://storycup.vercel.app/",
     images: [
@@ -46,17 +46,17 @@ export const metadata: Metadata = {
         url: "/anam.png",
         width: 1200,
         height: 630,
-        alt: "Muhammad Muneeb Content Writing Portfolio",
+        alt: "Nowsheen Content Writing Portfolio",
       },
     ],
-    siteName: "Muhammad Muneeb Portfolio",
+    siteName: "Nowsheen Portfolio",
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Muhammad Muneeb - Expert Content Writer & Copywriter",
+    title: "Nowsheen - Expert Content Writer & Copywriter",
     description:
-      "Explore Muhammad Muneeb's portfolio of engaging blog posts, SEO content, and persuasive copywriting.",
+      "Explore Nowsheen's portfolio of engaging blog posts, SEO content, and persuasive copywriting.",
     images: ["/anam.png"],
   },
 

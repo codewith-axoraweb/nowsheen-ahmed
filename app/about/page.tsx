@@ -1,3 +1,4 @@
+
 import Image from "next/image"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -9,34 +10,34 @@ import type { Metadata } from "next"
 import { DownloadResumeButton } from "@/components/DownloadResumeButton"
 
 export const metadata: Metadata = {
-  title: "About Muhammad Muneeb - Web Copywriter & Content Writer",
+  title: "About Nowsheen G. Ahmed - Digital Content Writer & Expert",
   description:
-    "Learn about Muhammad Muneeb, a Web Copywriter and Content Writer specializing in SEO content strategy, on-page optimization, geo-targeted copywriting, localized content, competitive content analysis, technical writing, and digital PR.",
+    "Learn about Nowsheen G. Ahmed, a Digital Content Writer and Technical Content Expert with international experience in content strategy, SEO, digital marketing, grant proposal writing, UX/UI design, social media content, and project management.",
   keywords: [
-    "Muhammad Muneeb",
-    "Web Copywriter",
+    "Nowsheen G. Ahmed",
+    "Digital Content Writer",
+    "Technical Content Writer",
     "Content Writer",
-    "SEO Content Strategy",
-    "On-Page Optimization",
-    "Geo-Targeted Copywriting",
-    "Localized Copywriting",
-    "Competitive Content Analysis",
-    "Technical Writing",
-    "CMS Publishing",
-    "Brand Voice Adaptation",
-    "Editorial Precision",
-    "Client-Centric Research",
-    "Blog Writing",
-    "Website Copywriting",
-    "Digital PR",
-    "Proofreading",
+    "Grant Proposal Writing",
     "Digital Marketing",
+    "SEO Optimization",
+    "Social Media Content",
+    "UX/UI Design",
+    "Technical Content Writing",
+    "E-Commerce Content",
+    "WordPress",
+    "Campaign Email Marketing",
+    "Software User Manuals",
+    "LMS Systems Documentation",
+    "Content Creation",
+    "Content Management",
+    "Project Management",
   ],
-  authors: [{ name: "Muhammad Muneeb" }],
+  authors: [{ name: "Nowsheen G. Ahmed" }],
   openGraph: {
-    title: "About Muhammad Muneeb - Web Copywriter & Content Writer",
+    title: "About Nowsheen G. Ahmed - Digital Content Writer & Expert",
     description:
-      "Discover Muhammad Muneeb's professional experience in web copywriting, SEO content strategy, localized copywriting, technical writing, CMS publishing, and digital PR.",
+      "Discover Nowsheen G. Ahmed's professional experience in technical content writing, grant proposal writing, digital marketing, SEO, UX/UI design, social media content, project management, and content management.",
     type: "website",
     url: "https://storycup.vercel.app/about",
     images: [
@@ -44,16 +45,16 @@ export const metadata: Metadata = {
         url: "/aboutme.webp",
         width: 1200,
         height: 630,
-        alt: "Muhammad Muneeb - Web Copywriter and Content Writer",
+        alt: "Nowsheen G. Ahmed - Digital Content Writer & Expert",
       },
     ],
-    siteName: "Muhammad Muneeb Portfolio",
+    siteName: "Nowsheen G. Ahmed Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "About Muhammad Muneeb - Web Copywriter",
+    title: "About Nowsheen G. Ahmed - Digital Content Writer",
     description:
-      "Learn about Muhammad Muneeb's experience in web copywriting, SEO content strategy, localized copywriting, technical writing, and digital PR.",
+      "Learn about Nowsheen G. Ahmed's experience in technical content writing, grant proposal writing, SEO, digital marketing, UX/UI design, social media content, and project management.",
     images: ["/aboutme.webp"],
   },
   alternates: {
@@ -74,11 +75,11 @@ export const metadata: Metadata = {
     "application/ld+json": JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Person",
-      name: "Muhammad Muneeb",
-      jobTitle: "Web Copywriter & Content Writer",
+      name: "Nowsheen G. Ahmed",
+      jobTitle: "Digital Content Writer & Expert",
       url: "https://storycup.vercel.app/about",
       description:
-        "Muhammad Muneeb is a Web Copywriter and Content Writer with experience in SEO content strategy, website copywriting, localized content, competitive content analysis, technical writing, CMS publishing, and digital PR.",
+        "Nowsheen G. Ahmed is a Digital Content Writer and Technical Content Expert with international experience in technical content writing, grant proposal writing, digital marketing, SEO optimization, UX/UI design, social media content, project management, and content management.",
     }),
   },
 }
@@ -93,8 +94,8 @@ export default function AboutPage() {
         <section className="text-center mb-16">
           <div className="relative w-32 h-32 mx-auto mb-6">
             <Image
-              src="/about1.png"
-              alt="Muhammad Muneeb"
+              src="/log.png"
+              alt="Nowsheen G. Ahmed"
               fill
               className="rounded-full border-4 border-primary/20"
             />
@@ -105,10 +106,11 @@ export default function AboutPage() {
           </h1>
 
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            I'm Muhammad Muneeb, a Web Copywriter and Content Writer with
-            professional experience in SEO content strategy, website
-            copywriting, localized content, competitive content analysis,
-            technical writing, CMS publishing, and digital PR.
+            I'm Nowsheen G. Ahmed, a Digital Content Writer and Technical
+            Content Expert with extensive experience working with international
+            companies across Canada, USA, UK, UAE, and India. I specialize in
+            content strategy, digital marketing, SEO optimization, UX/UI design,
+            social media content, and project management.
           </p>
 
           <DownloadResumeButton />
@@ -122,7 +124,7 @@ export default function AboutPage() {
 
           <div className="space-y-8">
 
-            {/* XpertDigi */}
+            {/* Dynamo Bytes */}
             <Card>
               <CardHeader>
                 <div className="flex items-center gap-4">
@@ -131,9 +133,9 @@ export default function AboutPage() {
                   </div>
 
                   <div>
-                    <CardTitle>Web Copywriter</CardTitle>
+                    <CardTitle>Technical Content Manager</CardTitle>
                     <p className="text-muted-foreground">
-                      XpertDigi, LLC, Lahore • June 2023 - Present
+                      Dynamo Bytes, UAE - Remote • 2024
                     </p>
                   </div>
                 </div>
@@ -141,65 +143,26 @@ export default function AboutPage() {
 
               <CardContent>
                 <p className="text-muted-foreground">
-                  Writing comprehensive website copies, adapting tone and
-                  brand voice for diverse B2B and B2C niches. Developing
-                  geo-targeted landing pages and localized service content,
-                  researching and drafting blog articles, conducting
-                  structural edits and proofreading, integrating target
-                  keywords naturally, and auditing existing content according
-                  to search intent and client needs.
+                  Created and managed WordPress-based website content aligned
+                  with business branding and target audiences. Led the creation
+                  and execution of social media marketing campaigns to increase
+                  user engagement and visibility. Directed the development of
+                  an e-commerce platform for STP maintenance, ensuring successful
+                  technical testing and project execution.
                 </p>
 
                 <div className="flex flex-wrap gap-2 mt-4">
-                  <Badge variant="secondary">Website Copywriting</Badge>
-                  <Badge variant="secondary">Brand Voice Adaptation</Badge>
-                  <Badge variant="secondary">Geo-Targeted Content</Badge>
-                  <Badge variant="secondary">Localized Copywriting</Badge>
-                  <Badge variant="secondary">Blog Writing</Badge>
-                  <Badge variant="secondary">Keyword Integration</Badge>
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* 7 Sky Marketing */}
-            <Card>
-              <CardHeader>
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
-                    <Briefcase className="h-6 w-6 text-primary" />
-                  </div>
-
-                  <div>
-                    <CardTitle>Content Writer</CardTitle>
-                    <p className="text-muted-foreground">
-                      7 Sky Marketing, Lahore • September 2022 - June 2023
-                    </p>
-                  </div>
-                </div>
-              </CardHeader>
-
-              <CardContent>
-                <p className="text-muted-foreground">
-                  Performed keyword research to identify high-value search
-                  queries and wrote insight-driven blog articles matching user
-                  search intent. Managed end-to-end publishing through
-                  WordPress, including metadata, heading hierarchies and
-                  internal linking. Also authored social media captions and
-                  proofread written deliverables before publication.
-                </p>
-
-                <div className="flex flex-wrap gap-2 mt-4">
-                  <Badge variant="secondary">Keyword Research</Badge>
-                  <Badge variant="secondary">Blog Writing</Badge>
+                  <Badge variant="secondary">Technical Content</Badge>
                   <Badge variant="secondary">WordPress</Badge>
-                  <Badge variant="secondary">On-Page SEO</Badge>
-                  <Badge variant="secondary">Social Media Captions</Badge>
-                  <Badge variant="secondary">Proofreading</Badge>
+                  <Badge variant="secondary">Social Media Marketing</Badge>
+                  <Badge variant="secondary">E-Commerce</Badge>
+                  <Badge variant="secondary">Technical Testing</Badge>
+                  <Badge variant="secondary">Project Execution</Badge>
                 </div>
               </CardContent>
             </Card>
 
-            {/* Digital Guru */}
+            {/* Smart Data Webs - Project Manager */}
             <Card>
               <CardHeader>
                 <div className="flex items-center gap-4">
@@ -208,9 +171,9 @@ export default function AboutPage() {
                   </div>
 
                   <div>
-                    <CardTitle>Content Writer & PR Support Specialist</CardTitle>
+                    <CardTitle>Project Manager</CardTitle>
                     <p className="text-muted-foreground">
-                      Digital Guru, Lahore • May 2020 - May 2022
+                      Smart Data Webs, India - Remote • 2024
                     </p>
                   </div>
                 </div>
@@ -218,21 +181,192 @@ export default function AboutPage() {
 
               <CardContent>
                 <p className="text-muted-foreground">
-                  Authored SEO-driven blog articles for the agency's primary
-                  website to support internal content marketing and educate
-                  visitors on digital PR services. Facilitated client
-                  communications, resolved prospect inquiries, managed support
-                  tickets through email and live chat, and executed targeted
-                  digital PR campaigns across various media outlets.
+                  Managed IT projects with a focus on scope, schedule, and
+                  budget optimization. Delivered high-quality UX/UI design
+                  solutions and led social media marketing content strategies
+                  for multiple campaigns.
                 </p>
 
                 <div className="flex flex-wrap gap-2 mt-4">
-                  <Badge variant="secondary">SEO Blog Writing</Badge>
-                  <Badge variant="secondary">Digital PR</Badge>
-                  <Badge variant="secondary">Client Communication</Badge>
-                  <Badge variant="secondary">Email Support</Badge>
-                  <Badge variant="secondary">Live Chat</Badge>
-                  <Badge variant="secondary">PR Campaigns</Badge>
+                  <Badge variant="secondary">Project Management</Badge>
+                  <Badge variant="secondary">IT Projects</Badge>
+                  <Badge variant="secondary">UX/UI Design</Badge>
+                  <Badge variant="secondary">Budget Optimization</Badge>
+                  <Badge variant="secondary">Social Media Strategy</Badge>
+                  <Badge variant="secondary">Campaign Content</Badge>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Smart Data Webs - Social Media Manager */}
+            <Card>
+              <CardHeader>
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
+                    <Briefcase className="h-6 w-6 text-primary" />
+                  </div>
+
+                  <div>
+                    <CardTitle>Social Media Manager</CardTitle>
+                    <p className="text-muted-foreground">
+                      Smart Data Webs, India - Remote • 2024
+                    </p>
+                  </div>
+                </div>
+              </CardHeader>
+
+              <CardContent>
+                <p className="text-muted-foreground">
+                  Executed data-driven social media strategies, boosting brand
+                  recognition and customer engagement across multiple campaigns.
+                </p>
+
+                <div className="flex flex-wrap gap-2 mt-4">
+                  <Badge variant="secondary">Social Media Management</Badge>
+                  <Badge variant="secondary">Digital Marketing</Badge>
+                  <Badge variant="secondary">Content Strategy</Badge>
+                  <Badge variant="secondary">Brand Recognition</Badge>
+                  <Badge variant="secondary">Customer Engagement</Badge>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* DigitizeMedia */}
+            <Card>
+              <CardHeader>
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
+                    <Briefcase className="h-6 w-6 text-primary" />
+                  </div>
+
+                  <div>
+                    <CardTitle>Technical Content Specialist</CardTitle>
+                    <p className="text-muted-foreground">
+                      DigitizeMedia, Canada - Edmonton - Remote • 2022 - 2024
+                    </p>
+                  </div>
+                </div>
+              </CardHeader>
+
+              <CardContent>
+                <p className="text-muted-foreground">
+                  Authored 50+ grant proposals approved by the Government of
+                  Canada under the CDAP initiative, generating significant
+                  funding for SMEs. Delivered technical documentation and
+                  content tailored to property, construction, finance, travel,
+                  and other industries. Managed all content-related tasks.
+                </p>
+
+                <div className="flex flex-wrap gap-2 mt-4">
+                  <Badge variant="secondary">Grant Proposal Writing</Badge>
+                  <Badge variant="secondary">Technical Documentation</Badge>
+                  <Badge variant="secondary">Content Writing</Badge>
+                  <Badge variant="secondary">CDAP Grants</Badge>
+                  <Badge variant="secondary">SME Content</Badge>
+                  <Badge variant="secondary">SEO Content</Badge>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* DesignoGraphy */}
+            <Card>
+              <CardHeader>
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
+                    <Briefcase className="h-6 w-6 text-primary" />
+                  </div>
+
+                  <div>
+                    <CardTitle>Technical Content Expert</CardTitle>
+                    <p className="text-muted-foreground">
+                      DesignoGraphy, Canada - Alberta - Remote • 2021 - 2022
+                    </p>
+                  </div>
+                </div>
+              </CardHeader>
+
+              <CardContent>
+                <p className="text-muted-foreground">
+                  Designed value propositions and business model canvases for
+                  IT projects. Optimized website content using SEO best
+                  practices, helping improve organic traffic and online
+                  visibility.
+                </p>
+
+                <div className="flex flex-wrap gap-2 mt-4">
+                  <Badge variant="secondary">Technical Content</Badge>
+                  <Badge variant="secondary">Value Propositions</Badge>
+                  <Badge variant="secondary">Business Model Canvases</Badge>
+                  <Badge variant="secondary">SEO Optimization</Badge>
+                  <Badge variant="secondary">Website Content</Badge>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Monalisa Tech Solutions */}
+            <Card>
+              <CardHeader>
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
+                    <Briefcase className="h-6 w-6 text-primary" />
+                  </div>
+
+                  <div>
+                    <CardTitle>Customer Sales Representative for IT Softwares</CardTitle>
+                    <p className="text-muted-foreground">
+                      Monalisa Tech Solutions, India • 08.2021 - 07.2022
+                    </p>
+                  </div>
+                </div>
+              </CardHeader>
+
+              <CardContent>
+                <p className="text-muted-foreground">
+                  Delivered excellent customer service by resolving inquiries
+                  and providing tailored solutions. Processed sales
+                  transactions with accuracy and efficiency while supporting
+                  customers with IT software solutions.
+                </p>
+
+                <div className="flex flex-wrap gap-2 mt-4">
+                  <Badge variant="secondary">Customer Service</Badge>
+                  <Badge variant="secondary">IT Software Sales</Badge>
+                  <Badge variant="secondary">Customer Support</Badge>
+                  <Badge variant="secondary">Sales Transactions</Badge>
+                  <Badge variant="secondary">Client Solutions</Badge>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* MWA Steel & Iron Company */}
+            <Card>
+              <CardHeader>
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
+                    <Briefcase className="h-6 w-6 text-primary" />
+                  </div>
+
+                  <div>
+                    <CardTitle>Investment Coordinator</CardTitle>
+                    <p className="text-muted-foreground">
+                      MWA Steel & Iron Company, Pakistan - Remote • 09.2020 - 12.2021
+                    </p>
+                  </div>
+                </div>
+              </CardHeader>
+
+              <CardContent>
+                <p className="text-muted-foreground">
+                  Designed and executed content marketing strategies for
+                  UK-based clients while supporting investment coordination and
+                  business communication activities.
+                </p>
+
+                <div className="flex flex-wrap gap-2 mt-4">
+                  <Badge variant="secondary">Investment Coordination</Badge>
+                  <Badge variant="secondary">Content Marketing</Badge>
+                  <Badge variant="secondary">UK Clients</Badge>
+                  <Badge variant="secondary">Business Communication</Badge>
                 </div>
               </CardContent>
             </Card>
@@ -248,12 +382,12 @@ export default function AboutPage() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-            {/* SEO & Writing */}
+            {/* Technical Content */}
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
-                  SEO & Content Writing
+                  Technical Content
                 </CardTitle>
               </CardHeader>
 
@@ -261,7 +395,7 @@ export default function AboutPage() {
 
                 <div>
                   <div className="flex justify-between mb-2">
-                    <span>SEO Content Strategy</span>
+                    <span>Technical Content Writing</span>
                     <span>95%</span>
                   </div>
                   <Progress value={95} />
@@ -269,29 +403,29 @@ export default function AboutPage() {
 
                 <div>
                   <div className="flex justify-between mb-2">
-                    <span>On-Page Optimization</span>
-                    <span>90%</span>
+                    <span>Grant Proposal Writing</span>
+                    <span>95%</span>
                   </div>
-                  <Progress value={90} />
+                  <Progress value={95} />
                 </div>
 
                 <div>
                   <div className="flex justify-between mb-2">
-                    <span>Technical Writing</span>
-                    <span>90%</span>
+                    <span>Content Creation & Management</span>
+                    <span>92%</span>
                   </div>
-                  <Progress value={90} />
+                  <Progress value={92} />
                 </div>
 
               </CardContent>
             </Card>
 
-            {/* Copywriting & Research */}
+            {/* Digital Marketing */}
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <span className="w-2 h-2 bg-green-500 rounded-full"></span>
-                  Copywriting & Research
+                  Digital Marketing & SEO
                 </CardTitle>
               </CardHeader>
 
@@ -299,7 +433,7 @@ export default function AboutPage() {
 
                 <div>
                   <div className="flex justify-between mb-2">
-                    <span>Geo-Targeted Copywriting</span>
+                    <span>Digital Marketing</span>
                     <span>92%</span>
                   </div>
                   <Progress value={92} />
@@ -307,29 +441,29 @@ export default function AboutPage() {
 
                 <div>
                   <div className="flex justify-between mb-2">
-                    <span>Competitive Content Analysis</span>
-                    <span>88%</span>
+                    <span>SEO Optimization</span>
+                    <span>90%</span>
                   </div>
-                  <Progress value={88} />
+                  <Progress value={90} />
                 </div>
 
                 <div>
                   <div className="flex justify-between mb-2">
-                    <span>Client-Centric Research</span>
-                    <span>90%</span>
+                    <span>Social Media Content</span>
+                    <span>92%</span>
                   </div>
-                  <Progress value={90} />
+                  <Progress value={92} />
                 </div>
 
               </CardContent>
             </Card>
 
-            {/* Editorial & CMS */}
+            {/* Tools & Documentation */}
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <span className="w-2 h-2 bg-purple-500 rounded-full"></span>
-                  Editorial & CMS
+                  Tools & Documentation
                 </CardTitle>
               </CardHeader>
 
@@ -337,7 +471,7 @@ export default function AboutPage() {
 
                 <div>
                   <div className="flex justify-between mb-2">
-                    <span>CMS & Publishing</span>
+                    <span>WordPress</span>
                     <span>90%</span>
                   </div>
                   <Progress value={90} />
@@ -345,18 +479,18 @@ export default function AboutPage() {
 
                 <div>
                   <div className="flex justify-between mb-2">
-                    <span>Brand Voice Adaptation</span>
-                    <span>88%</span>
+                    <span>UX/UI Design</span>
+                    <span>85%</span>
                   </div>
-                  <Progress value={88} />
+                  <Progress value={85} />
                 </div>
 
                 <div>
                   <div className="flex justify-between mb-2">
-                    <span>Editorial Precision</span>
-                    <span>92%</span>
+                    <span>Software Documentation</span>
+                    <span>90%</span>
                   </div>
-                  <Progress value={92} />
+                  <Progress value={90} />
                 </div>
 
               </CardContent>
@@ -366,14 +500,32 @@ export default function AboutPage() {
 
           {/* Additional Skills */}
           <div className="flex flex-wrap gap-2 justify-center mt-8">
-            <Badge variant="secondary">Localized Copywriting</Badge>
+            <Badge variant="secondary">Technical Content Writing</Badge>
+            <Badge variant="secondary">Grant Proposal Writing</Badge>
+            <Badge variant="secondary">Digital Marketing</Badge>
+            <Badge variant="secondary">SEO Optimization</Badge>
+            <Badge variant="secondary">Social Media Content</Badge>
+            <Badge variant="secondary">UX/UI Design</Badge>
             <Badge variant="secondary">Blog Writing</Badge>
-            <Badge variant="secondary">Website Copywriting</Badge>
-            <Badge variant="secondary">Proofreading</Badge>
-            <Badge variant="secondary">Self-Editing</Badge>
-            <Badge variant="secondary">Digital PR</Badge>
-            <Badge variant="secondary">Brand Voice Adaptation</Badge>
-            <Badge variant="secondary">Time Management</Badge>
+            <Badge variant="secondary">E-Commerce Product Descriptions</Badge>
+            <Badge variant="secondary">Campaigns & Email Marketing</Badge>
+            <Badge variant="secondary">Ebook Design & Content</Badge>
+            <Badge variant="secondary">Software User Manuals</Badge>
+            <Badge variant="secondary">Web/App Documentation</Badge>
+            <Badge variant="secondary">LMS Systems Documentation</Badge>
+            <Badge variant="secondary">WordPress Plugins</Badge>
+            <Badge variant="secondary">Web Testing</Badge>
+            <Badge variant="secondary">ClickUp</Badge>
+            <Badge variant="secondary">Monday.com</Badge>
+            <Badge variant="secondary">MailChimp</Badge>
+            <Badge variant="secondary">Google Analytics</Badge>
+            <Badge variant="secondary">Adobe XD</Badge>
+            <Badge variant="secondary">Google Sheets</Badge>
+            <Badge variant="secondary">Microsoft Word</Badge>
+            <Badge variant="secondary">Microsoft PowerPoint</Badge>
+            <Badge variant="secondary">Microsoft Excel</Badge>
+            <Badge variant="secondary">Canva</Badge>
+            <Badge variant="secondary">Figma</Badge>
           </div>
         </section>
 
@@ -385,7 +537,7 @@ export default function AboutPage() {
 
           <div className="grid md:grid-cols-2 gap-8">
 
-            {/* MBA */}
+            {/* MBA Finance */}
             <Card>
               <CardHeader>
                 <div className="flex items-center gap-4">
@@ -394,9 +546,9 @@ export default function AboutPage() {
                   </div>
 
                   <div>
-                    <CardTitle>Masters of Business Administration</CardTitle>
+                    <CardTitle>MBA - Finance</CardTitle>
                     <p className="text-muted-foreground">
-                      FAST-NUCES, Lahore • 2026 - Present
+                      Virtual University of Pakistan • 2012 - 2015
                     </p>
                   </div>
                 </div>
@@ -404,13 +556,38 @@ export default function AboutPage() {
 
               <CardContent>
                 <p className="text-muted-foreground">
-                  Currently pursuing a Masters of Business Administration at
-                  FAST-NUCES, Lahore.
+                  Completed Master of Business Administration in Finance from
+                  Virtual University of Pakistan.
                 </p>
               </CardContent>
             </Card>
 
-            {/* BS Chemical Engineering */}
+            {/* MPhil */}
+            <Card>
+              <CardHeader>
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
+                    <GraduationCap className="h-6 w-6 text-primary" />
+                  </div>
+
+                  <div>
+                    <CardTitle>M.Phil - Management Sciences</CardTitle>
+                    <p className="text-muted-foreground">
+                      Bahria University Karachi • 2019 - 2021
+                    </p>
+                  </div>
+                </div>
+              </CardHeader>
+
+              <CardContent>
+                <p className="text-muted-foreground">
+                  Completed M.Phil in Management Sciences from Bahria
+                  University Karachi.
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* Creative Writing */}
             <Card>
               <CardHeader>
                 <div className="flex items-center gap-4">
@@ -419,9 +596,9 @@ export default function AboutPage() {
                   </div>
 
                   <div>
-                    <CardTitle>BS Chemical Engineering</CardTitle>
+                    <CardTitle>Creative Writing/Copywriting Professional Certificate</CardTitle>
                     <p className="text-muted-foreground">
-                      Sharif College of Engineering Technology, Lahore • 2017 - 2021
+                      Professional Certificate
                     </p>
                   </div>
                 </div>
@@ -429,15 +606,13 @@ export default function AboutPage() {
 
               <CardContent>
                 <p className="text-muted-foreground">
-                  Completed BS Chemical Engineering. Final year project:
-                  "Production of 50 Tons Per Day of BTX from the Fluidized
-                  Catalytic Cracking of Biomass." Also designed a Sieve Plate
-                  Distillation Column.
+                  Professional certification in Creative Writing and
+                  Copywriting.
                 </p>
               </CardContent>
             </Card>
 
-            {/* LinkedIn Learning */}
+            {/* British Council */}
             <Card>
               <CardHeader>
                 <div className="flex items-center gap-4">
@@ -446,9 +621,9 @@ export default function AboutPage() {
                   </div>
 
                   <div>
-                    <CardTitle>Master Digital Marketing by LinkedIn Learning Path</CardTitle>
+                    <CardTitle>ICT Collaboration and Distance Learning Strategies</CardTitle>
                     <p className="text-muted-foreground">
-                      Certificate
+                      British Council Certification
                     </p>
                   </div>
                 </div>
@@ -456,16 +631,13 @@ export default function AboutPage() {
 
               <CardContent>
                 <p className="text-muted-foreground">
-                  Topics included Digital Marketing Foundations, Social Media
-                  Marketing Foundations, Social Media Marketing Strategy,
-                  TikTok and Instagram Reels, Facebook Marketing, LinkedIn
-                  Marketing, SEO Keyword Strategy, SEO Content Writing, and
-                  Augmented Reality Marketing.
+                  Completed British Council certification in ICT Collaboration
+                  and Distance Learning Strategies.
                 </p>
               </CardContent>
             </Card>
 
-            {/* Digital Garage */}
+            {/* Freelancer */}
             <Card>
               <CardHeader>
                 <div className="flex items-center gap-4">
@@ -474,9 +646,9 @@ export default function AboutPage() {
                   </div>
 
                   <div>
-                    <CardTitle>Fundamentals of Digital Marketing</CardTitle>
+                    <CardTitle>Certified Freelancer & Virtual Assistant</CardTitle>
                     <p className="text-muted-foreground">
-                      Digital Garage • Certificate
+                      Remote Work Certification
                     </p>
                   </div>
                 </div>
@@ -484,13 +656,12 @@ export default function AboutPage() {
 
               <CardContent>
                 <p className="text-muted-foreground">
-                  Completed the Fundamentals of Digital Marketing certificate
-                  from Digital Garage.
+                  Certified Freelancer and Virtual Assistant for Remote Work.
                 </p>
               </CardContent>
             </Card>
 
-            {/* DigiSkills */}
+            {/* PAFLA */}
             <Card>
               <CardHeader>
                 <div className="flex items-center gap-4">
@@ -499,9 +670,9 @@ export default function AboutPage() {
                   </div>
 
                   <div>
-                    <CardTitle>Digital Marketing</CardTitle>
+                    <CardTitle>Membership of Pakistan Freelancers Association</CardTitle>
                     <p className="text-muted-foreground">
-                      Digi Skills • Certificate
+                      PAFLA
                     </p>
                   </div>
                 </div>
@@ -509,7 +680,7 @@ export default function AboutPage() {
 
               <CardContent>
                 <p className="text-muted-foreground">
-                  Completed the Digital Marketing certificate from Digi Skills.
+                  Member of the Pakistan Freelancers Association (PAFLA).
                 </p>
               </CardContent>
             </Card>
@@ -526,11 +697,12 @@ export default function AboutPage() {
           <Card>
             <CardContent className="p-8">
               <p className="text-lg text-muted-foreground text-center max-w-3xl mx-auto">
-                I focus on creating clear, engaging, and research-driven
-                content that matches audience needs and search intent. My work
-                combines SEO strategy, editorial precision, brand voice
-                adaptation, client-centric research, and digital PR to support
-                effective communication and business goals.
+                I focus on creating high-quality, research-driven technical
+                content that supports business growth and clear communication.
+                With experience across international markets, I combine
+                content strategy, SEO, digital marketing, UX/UI understanding,
+                project management, and editorial expertise to deliver
+                meaningful content solutions for diverse industries.
               </p>
             </CardContent>
           </Card>
